@@ -18,6 +18,7 @@
 >* 프로세스를 모델링한 자료구조를 정의한 후 그것들을 Double Linked List로 연결해서 3단계의 레벨을 가진 Queue를 만든다
 
 >![논리 구조](/image/image1.PNG)
+
 	typedef struct priority_queue *queue_pointer;
 	struct priority_queue{
 		int process_id;
