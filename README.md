@@ -19,7 +19,7 @@
 
 >![논리 구조](/image/image1.PNG)
 
->        	typedef struct priority_queue *queue_pointer;
+>       	typedef struct priority_queue *queue_pointer;
 	struct priority_queue{
 		int process_id;
 		int priority;
